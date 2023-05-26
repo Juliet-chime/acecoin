@@ -106,6 +106,9 @@ position: relative;
         mix-blend-mode: difference;
         @media (max-width: 1024px) {
       display: none;
+            }
+  @media (max-width: 1290px) {
+      display: none;
   }
           }
 }
@@ -122,6 +125,9 @@ img{
     mix-blend-mode: difference;
     @media (max-width: 1024px) {
 display: none;
+  }
+  @media (max-width: 1290px) {
+      display: none;
   }
 }
     }
