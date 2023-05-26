@@ -105,7 +105,7 @@ position: relative;
         filter: grayscale(100%);
         mix-blend-mode: difference;
         @media (max-width: 1024px) {
-width: 210px;
+      display: none;
   }
           }
 }
@@ -121,7 +121,7 @@ img{
     filter: grayscale(100%);
     mix-blend-mode: difference;
     @media (max-width: 1024px) {
-width: 215px;
+display: none;
   }
 }
     }
