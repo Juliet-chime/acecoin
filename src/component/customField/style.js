@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const CustomFieldStyle = styled('div')`
-width: 100%; 
+@media (max-width: 1024px) {
+  width: 100%;
+  }
 .inputWrapper{
 position: relative;
 display: flex;
