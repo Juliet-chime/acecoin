@@ -4,6 +4,9 @@ export const CustomFieldStyle = styled('div')`
 @media (max-width: 1024px) {
   width: 100%;
   }
+  @media (max-width: 1280px) {
+    width: 100%;
+  }
 .inputWrapper{
 position: relative;
 display: flex;

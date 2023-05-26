@@ -34,8 +34,8 @@ const HomeModalContent = () => {
                         <div className='time_block'>{currentHour[0]}</div>
                         <div className='time_block'>{currentHour[1]}</div>
                         <div className='time_colon'>:</div>
-                        <div className='time_block'>{currentMinute[0]}</div>
-                        <div className='time_block'>{currentMinute[1]}</div>
+                        <div className='time_block'>{currentMinute?.length === 1 ? 0 : currentMinute[0]}</div>
+                        <div className='time_block'>{currentMinute?.length === 1 ? currentMinute[0] : currentMinute[1]}</div>
                     </div>
                 </div>
                 <div className='cardinput'>

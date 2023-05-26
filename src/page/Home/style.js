@@ -7,6 +7,9 @@ padding: 1rem;
 @media (max-width: 1024px) {
  flex-direction: column;
   }
+  @media (max-width: 1280px) {
+    flex-direction: column;
+  }
 `
 
 export const CardInputs = styled.div`
@@ -61,6 +64,11 @@ flex: 2;
         align-items: ${props => props.row ? 'center' : 'flex-start'} ;
         justify-content: ${props => props.row ? 'center' : 'flex-start'};
   }
+  @media (max-width: 1280px) {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
     }
     .expitationwrapper{
         display: flex;
@@ -69,6 +77,9 @@ flex: 2;
         width: 57%;
         @media (max-width: 1024px) {
 width: 100%;
+  }
+  @media (max-width: 1280px) {
+    width: 100%;
   }
         .dash{
             font-weight: 700;
@@ -105,7 +116,7 @@ position: relative;
         filter: grayscale(100%);
         mix-blend-mode: difference;
         @media (max-width: 1024px) {
-      display: none;
+            display: none;
             }
   @media (max-width: 1290px) {
       display: none;
